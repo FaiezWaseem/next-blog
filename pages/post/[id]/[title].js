@@ -39,7 +39,7 @@ export default function Post({data}) {
 export async function getServerSideProps({params}) {
 
     // Fetch data from external API
-    const res = await fetch(`http://localhost:3000/api/post/`+params.id)
+    const res = await fetch(`https://hunterblog.vercel.app/api/post/`+params.id)
     const data = await res.json()
   
     // Pass data to the page via props
