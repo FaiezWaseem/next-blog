@@ -1,0 +1,27 @@
+
+.navbar{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5vw;
+    background: #fff;
+    z-index: 9;
+
+}
+.link_containars{
+    display: flex;
+    list-style: none;
+}
+.link_a{
+    padding: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #000;
+    cursor: pointer;
+}

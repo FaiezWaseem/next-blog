@@ -1,0 +1,46 @@
+.bannerContainer{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+}
+.banner{
+    width: 350px;
+    height: 280px;
+    position: relative;
+    background: #e7e7e7;
+    background-size: cover;
+    background-position: center;
+}
+.blog{
+    width: 70vw;
+    height: 100px;
+    display: block;
+    margin: auto;
+    padding: 50px 0;
+}
+.blog .article{
+    position: relative;
+    height: fit-content;
+    padding-bottom: 0;
+}
+
+.published{
+    margin: 20px 0 60px;
+    padding: 0 10px;
+    text-transform: capitalize;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.5);
+}
+.article{
+    min-height: auto;
+    height: fit-content;
+    padding: 0 10px;
+    white-space: normal;
+}
+@media screen and (max-width : 768px) {
+    .blog {
+        min-width: none;
+    }
+}
